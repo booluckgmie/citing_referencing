@@ -231,7 +231,7 @@
   <macro name="date">
     <choose>
       <if type="article-journal article-magazine article-newspaper" match="any">
-        <group suffix=";" delimiter=" ">
+        <group suffix="." delimiter=" ">
           <date variable="issued" form="text"/>
           <text macro="accessed-date"/>
         </group>
