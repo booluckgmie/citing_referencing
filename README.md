@@ -6,4 +6,4 @@ Citing and referencing style for publication
 Revise version before **Springer - Vancouver Referencing Guide (updated Apr 2023)**<br>
 ![Alt text](https://i.ibb.co/NFSMcfr/s-vancouver.png "problemMJMHS")
 
-[Download Revise Version]([https://octodex.github.com/images/minion.png](https://raw.githubusercontent.com/booluckgmie/citing_referencing/main/Springer%20Vancouver%20(numeric-doi)_MJMHS.csl) "revise version download")
+[Download Revise Version]([https://raw.githubusercontent.com/booluckgmie/citing_referencing/main/Springer%20Vancouver%20(numeric-doi)_MJMHS.csl] "revise version download")
