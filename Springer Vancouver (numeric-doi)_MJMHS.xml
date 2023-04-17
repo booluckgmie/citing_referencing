@@ -24,8 +24,8 @@
   <locale xml:lang="en">
     <date form="text" delimiter=" ">
       <date-part name="year"/>
-      <date-part name="month" form="short" strip-periods="true"/>
-      <date-part name="day"/>
+      <!-- <date-part name="month" form="short" strip-periods="true"/> -->
+      <!-- <date-part name="day"/> -->
     </date>
     <terms>
       <term name="retrieved">available</term>
@@ -34,8 +34,8 @@
   </locale>
   <locale xml:lang="fr">
     <date form="text" delimiter=" ">
-      <date-part name="day"/>
-      <date-part name="month" form="short" strip-periods="true"/>
+      <!-- <date-part name="day"/> -->
+      <!-- <date-part name="month" form="short" strip-periods="true"/> -->
       <date-part name="year"/>
     </date>
     <terms>
@@ -80,8 +80,8 @@
       <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
         <date variable="issued">
           <date-part name="year"/>
-          <date-part name="month"/>
-          <date-part name="day"/>
+          <!-- <date-part name="month"/> -->
+          <!-- <date-part name="day"/> -->
         </date>
       </if>
       <else>
@@ -144,8 +144,8 @@
               <group>
                 <text term="accessed" text-case="capitalize-first" suffix=" "/>
                 <date variable="accessed">
-                  <date-part name="month" suffix=" "/>
-                  <date-part name="day" suffix=", "/>
+                  <!-- <date-part name="month" suffix=" "/> -->
+                  <!-- <date-part name="day" suffix=", "/> -->
                   <date-part name="year"/>
                 </date>
               </group>
@@ -239,8 +239,8 @@
       <else-if type="bill legislation" match="any">
         <group delimiter=", ">
           <date variable="issued" delimiter=" ">
-            <date-part name="month" form="short" strip-periods="true"/>
-            <date-part name="day"/>
+            <!-- <date-part name="month" form="short" strip-periods="true"/> -->
+            <!-- <date-part name="day"/> -->
           </date>
           <date variable="issued">
             <date-part name="year"/>
